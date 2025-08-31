@@ -1,0 +1,32 @@
+@keyframes fade-and-slide {
+  from {
+    opacity: 1;
+    translate: 0 10%;
+  }
+
+  to {
+    opacity: 0;
+    translate: 0 -10%;
+  }
+}
+
+#dualityPopup {
+  animation: 3s fade-and-slide ease-in-out;
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &.hope {
+    background-image: url("../img/hope.png");
+  }
+
+  &.fear {
+    background-image: url("../img/fear.png");
+  }
+
+  &.crit {
+    background-image: url("../img/crit.png");
+  }
+}

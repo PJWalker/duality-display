@@ -1,0 +1,19 @@
+{
+  "id": "duality-display",
+  "title": "Duality Display",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "styles": [
+    "styles/dualityDisplay.css"
+  ],
+  "scripts": [
+    "scripts/dualityDisplay.js"
+  ],
+  "description": ""
+}
