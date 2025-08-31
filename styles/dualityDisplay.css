@@ -17,6 +17,7 @@
   pointer-events: none;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 1000;
 
   &.hope {
     background-image: url("../img/hope.png");

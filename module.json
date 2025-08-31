@@ -2,6 +2,8 @@
   "id": "duality-display",
   "title": "Duality Display",
   "version": "1.0.0",
+  "manifest": "https://github.com/PJWalker/duality-display/releases/latest/download/module.json",
+  "download": "https://github.com/PJWalker/duality-display/releases/download/1.0.0/module.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -15,5 +17,5 @@
   "scripts": [
     "scripts/dualityDisplay.js"
   ],
-  "description": ""
+  "description": "",
 }
